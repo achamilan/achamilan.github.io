@@ -1,20 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>demian</title>
   
   
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-05-23T02:42:40.462Z</updated>
+  <updated>2019-05-23T07:29:30.661Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>liu</name>
     
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>位操作</title>
+    <link href="http://yoursite.com/2019/05/23/openfire%E7%BC%93%E5%AD%98%E7%B3%BB%E7%BB%9F/"/>
+    <id>http://yoursite.com/2019/05/23/openfire缓存系统/</id>
+    <published>2019-05-23T02:53:55.747Z</published>
+    <updated>2019-05-23T07:29:30.661Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>位操作符包括</strong></p><h3 id="按位与-amp"><a href="#按位与-amp" class="headerlink" title="按位与 &amp;"></a>按位与 &amp;</h3><p><code>a&amp;b</code> 当a b都为1时，结果为1，否则为0；</p><h3 id="按位或"><a href="#按位或" class="headerlink" title="按位或 |"></a>按位或 |</h3><p><code>a|b</code> a b有1为1便为1，都为0时为0</p><h3 id="按位取反"><a href="#按位取反" class="headerlink" title="按位取反 ~"></a>按位取反 ~</h3><p><code>~a</code> 0变1，1变0</p><h3 id="按位异或"><a href="#按位异或" class="headerlink" title="按位异或 ^"></a>按位异或 ^</h3><p><code>a^b</code> a b相同时为0，相反时为1 <code>a^a=0</code></p><h3 id="移位操作-lt-lt-gt-gt"><a href="#移位操作-lt-lt-gt-gt" class="headerlink" title="移位操作 &lt;&lt; &gt;&gt;"></a>移位操作 &lt;&lt; &gt;&gt;</h3><p>左移 左边移空的部分补0，相当于乘2<br>右移 如果最高位是0，左移空的位就填入0；如果最高位是1，右移空的位就填入1，相当于除2</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;strong&gt;位操作符包括&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&quot;按位与-amp&quot;&gt;&lt;a href=&quot;#按位与-amp&quot; class=&quot;headerlink&quot; title=&quot;按位与 &amp;amp;&quot;&gt;&lt;/a&gt;按位与 &amp;amp;&lt;/h3&gt;&lt;p&gt;&lt;code&gt;a&amp;amp;b&lt;/
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
